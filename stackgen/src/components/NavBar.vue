@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <div class="flex justify-between">
-      <router-link to="/">Home</router-link>
-      <router-link to="about">About</router-link>
+    <div class="flex  w-full justify-between">
+      <router-link to="/" class="text-black">Home</router-link>
+      <router-link to="about" class="text-black bg-green-100 p-5 rounded-xl">About</router-link>
     </div>
 
   </nav>

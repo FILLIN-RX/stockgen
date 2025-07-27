@@ -1,17 +1,13 @@
 <script setup>
-
 import { RouterView } from 'vue-router'
 import Navbar from './components/NavBar.vue'
-
 </script>
 
 <template>
   <Navbar />
-  <main class="bg-white">
+  <div class="h-screen">
     <RouterView />
-  </main>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
