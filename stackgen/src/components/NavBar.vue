@@ -1,11 +1,10 @@
 <template>
-  <nav>
-    <div class="flex  w-full justify-between">
-      <router-link to="/" class="text-black">Home</router-link>
-      <router-link to="about" class="text-black bg-green-100 p-5 rounded-xl">About</router-link>
-    </div>
-
+  <nav class="fixed h-full">
+    <ul>
+      <div class="p-4 font-bold  text-green-300 text-xl">stockGen</div>
+      <li class="mb-4"><router-link to="/" class="hover:underline">Dashboard</router-link></li>
+      <li><router-link to="/produits" class="hover:underline">Produits</router-link></li>
+    </ul>
   </nav>
 </template>
-<script>
-</script>
+<script></script>

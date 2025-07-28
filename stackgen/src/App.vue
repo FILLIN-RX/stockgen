@@ -1,13 +1,12 @@
 <script setup>
-import { RouterView } from 'vue-router'
-import Navbar from './components/NavBar.vue'
+
+
+import DefaultLayout from './layout/DefaultLayout.vue';
 </script>
 
 <template>
-  <Navbar />
-  <div class="h-screen">
-    <RouterView />
-  </div>
+
+<DefaultLayout />
 </template>
 
 <style scoped></style>
